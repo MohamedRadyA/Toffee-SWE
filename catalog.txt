@@ -1,0 +1,4 @@
+Koghwassioant, 3.5, A crispy Koghwassioant., Bakery, Package
+Koghwassioant Milk, 4, A delicious Koghwassioant milk., Dairy, Loose
+Koghwassioant Gum, 60.5, A juicy Koghwassioant gum., Sweets, Package
+Koghwassioant Meat, 0.5, A crunchy Koghwassioant meat., Meat, Loose
