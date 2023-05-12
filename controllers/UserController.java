@@ -1,5 +1,6 @@
 package controllers;
 
+import misc.OTPAuthenticator;
 import model.User;
 
 import java.util.Scanner;
@@ -80,6 +81,8 @@ public class UserController {
                 return false;
             }
         }
+        if (!OTPAuthenticator.sendOTP(email))
+            return false;
         User newUser = new User(username, password, email);
         Database.addUser(newUser);
         return true;
